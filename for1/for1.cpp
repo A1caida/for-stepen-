@@ -1,5 +1,5 @@
-﻿// степени, хз зачем
-//
+// степени, хз зачем
+//25.03.19 и нахуя не понятно чего хочу
 
 #include "pch.h"
 #include <iostream>
@@ -15,10 +15,10 @@ int main()
 	cin >> a;
 	cout << "Степень?\n";
 	cin >> b;
-	for (c=1; c <= 10; c++) {
+	for (c=1; c < b; c++) {
 
-		a = a * b;
-		cout << a << ", ";
+		a = pow(a, b);
+		cout << a << " ";
 	}
 	system("pause>nul");
 	return 0;
